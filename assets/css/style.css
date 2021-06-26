@@ -1,16 +1,20 @@
+
+/* creating the layout and styling of the page */
+/*no padding no margin*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
+/* set background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*apply style and padding to the header*/
 .header {
-    padding: 20px;
+    padding: 20px; /* applying 20px to all sides */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -20,11 +24,12 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* creates a different colors for seo in the word Horiseon*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*styling the div element specifying padding for top and right side */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,7 +55,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* styling the main display picture and keeping it center with specific height bottom margin */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +65,7 @@ p {
     background-position: center;
 }
 
+/* defining properties of left and right float positions */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -87,11 +93,11 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,7 +107,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
