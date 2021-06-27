@@ -55,7 +55,8 @@ Links are functional
 Site loads without errors 
 Site is published on Git Hub
 
-
-
+# Link malfunctioning
+this link <link rel="stylesheet" href="./assets/css/style.css" media="print" onload="this.media='all'">
+was replaced with <link rel="stylesheet" href="./assets/css/style.css"/>
 # 
 
